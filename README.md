@@ -14,11 +14,18 @@ Clone this project, put all to your octopress folder:
 
 ## Usage #
 
-Use `emoji` tag is rendered by Liquid
+Use `emoji` tag in your article that is rendered by Liquid
 
 ```
  {% emoji emoji_name %}
 ```
+Like this:
+
+```
+ {% emoji smile %} 
+```
+
+Output: :smile:
 
 ## Cheat Sheet
 <table>
