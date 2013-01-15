@@ -67,7 +67,7 @@ Use `emoji` tag is rendered by Liquid
 <td>kiss_heart</td>
 </tr>
 <tr>
-<td>:kissing_face:</td>
+<td>:kissing_closed_eyes:</td>
 <td>kiss_face</td>
 <td>:mask:</td>
 <td>mask</td>
