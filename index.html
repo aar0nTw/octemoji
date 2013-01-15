@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Octemoji by aar0nTw</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Octemoji</h1>
+          <h2>Use emoji on your Octopress</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/aar0nTw/octemoji/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/aar0nTw/octemoji/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/aar0nTw/octemoji" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>README</h1>
+
+<p>Octopress plugin to use emoji in content.
+See:<a href="http://juandebravo.com/2012/11/17/emoji-support-in-jekyll/">Emoji support in Jekyll</a> to use emoji in Jekyll generator, or use this Octopress plugin.</p>
+
+<h2>Getting Started</h2>
+
+<p>Clone this project, put all to your octopress folder:</p>
+
+<p><code>octemoji.rb</code> in the <code>plugins/</code> folder.</p>
+
+<p><code>_octemoji.scss</code> in the <code>sass/custom/</code> folder.</p>
+
+<p><code>emoji.png</code> in the <code>source/images/octemoji/</code> folder.</p>
+
+<h2>Usage</h2>
+
+<p>Use <code>emoji</code> tag in your article that is rendered by Liquid</p>
+
+<pre><code> {% emoji emoji_name %}
+</code></pre>
+
+<p>Like this:</p>
+
+<pre><code> {% emoji smile %} 
+</code></pre>
+
+<p>Output: <img class="emoji" title=":smile:" alt=":smile:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle"></p>
+
+<h2>Cheat Sheet</h2>
+
+<table>
+<tr>
+<th>emoji</th>
+<th>name</th>
+<th>emoji</th>
+<th>name</th>
+</tr>
+<tr>
+<td><img class="emoji" title=":smile:" alt=":smile:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle"></td>
+<td>smile</td>
+<td><img class="emoji" title=":angry:" alt=":angry:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/angry.png" height="20" width="20" align="absmiddle"></td>
+<td>angry</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":pensive:" alt=":pensive:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/pensive.png" height="20" width="20" align="absmiddle"></td>
+<td>pensive</td>
+<td><img class="emoji" title=":astonished:" alt=":astonished:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/astonished.png" height="20" width="20" align="absmiddle"></td>
+<td>astonished</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":disappointed:" alt=":disappointed:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/disappointed.png" height="20" width="20" align="absmiddle"></td>
+<td>disappointed</td>
+<td><img class="emoji" title=":persevere:" alt=":persevere:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/persevere.png" height="20" width="20" align="absmiddle"></td>
+<td>persevere</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":cold_sweat:" alt=":cold_sweat:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/cold_sweat.png" height="20" width="20" align="absmiddle"></td>
+<td>cold_sweat</td>
+<td><img class="emoji" title=":unamused:" alt=":unamused:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/unamused.png" height="20" width="20" align="absmiddle"></td>
+<td>unamused</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":heart_eyes:" alt=":heart_eyes:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/heart_eyes.png" height="20" width="20" align="absmiddle"></td>
+<td>heart_eyes</td>
+<td><img class="emoji" title=":grin:" alt=":grin:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/grin.png" height="20" width="20" align="absmiddle"></td>
+<td>grin</td>
+</tr>
+<tr>
+<td>:wink2:</td>
+<td>wink2</td>
+<td><img class="emoji" title=":tongue:" alt=":tongue:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/tongue.png" height="20" width="20" align="absmiddle"></td>
+<td>tongue</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":blush:" alt=":blush:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/blush.png" height="20" width="20" align="absmiddle"></td>
+<td>blush</td>
+<td><img class="emoji" title=":kissing_heart:" alt=":kissing_heart:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/kissing_heart.png" height="20" width="20" align="absmiddle"></td>
+<td>kiss_heart</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":kissing_closed_eyes:" alt=":kissing_closed_eyes:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/kissing_closed_eyes.png" height="20" width="20" align="absmiddle"></td>
+<td>kiss_face</td>
+<td><img class="emoji" title=":mask:" alt=":mask:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/mask.png" height="20" width="20" align="absmiddle"></td>
+<td>mask</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":flushed:" alt=":flushed:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/flushed.png" height="20" width="20" align="absmiddle"></td>
+<td>flushed</td>
+<td><img class="emoji" title=":smiley:" alt=":smiley:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/smiley.png" height="20" width="20" align="absmiddle"></td>
+<td>smiley</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":satisfied:" alt=":satisfied:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/satisfied.png" height="20" width="20" align="absmiddle"></td>
+<td>satisfied</td>
+<td><img class="emoji" title=":smile:" alt=":smile:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/smile.png" height="20" width="20" align="absmiddle"></td>
+<td>smile</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":joy:" alt=":joy:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/joy.png" height="20" width="20" align="absmiddle"></td>
+<td>joy</td>
+<td><img class="emoji" title=":relaxed:" alt=":relaxed:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/relaxed.png" height="20" width="20" align="absmiddle"></td>
+<td>relax</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":cry:" alt=":cry:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/cry.png" height="20" width="20" align="absmiddle"></td>
+<td>cry</td>
+<td><img class="emoji" title=":sob:" alt=":sob:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/sob.png" height="20" width="20" align="absmiddle"></td>
+<td>sob</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":fearful:" alt=":fearful:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/fearful.png" height="20" width="20" align="absmiddle"></td>
+<td>fearful</td>
+<td><img class="emoji" title=":rage:" alt=":rage:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/rage.png" height="20" width="20" align="absmiddle"></td>
+<td>rage</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":confounded:" alt=":confounded:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/confounded.png" height="20" width="20" align="absmiddle"></td>
+<td>confounded</td>
+<td><img class="emoji" title=":scream:" alt=":scream:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/scream.png" height="20" width="20" align="absmiddle"></td>
+<td>scream</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":sleepy:" alt=":sleepy:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/sleepy.png" height="20" width="20" align="absmiddle"></td>
+<td>sleepy</td>
+<td><img class="emoji" title=":smirk:" alt=":smirk:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/smirk.png" height="20" width="20" align="absmiddle"></td>
+<td>smirk</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":sweat:" alt=":sweat:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/sweat.png" height="20" width="20" align="absmiddle"></td>
+<td>sweat</td>
+<td><img class="emoji" title=":relieved:" alt=":relieved:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/relieved.png" height="20" width="20" align="absmiddle"></td>
+<td>relieved</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":wink:" alt=":wink:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/wink.png" height="20" width="20" align="absmiddle"></td>
+<td>wink</td>
+<td><img class="emoji" title=":ghost:" alt=":ghost:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/ghost.png" height="20" width="20" align="absmiddle"></td>
+<td>ghost</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":baby:" alt=":baby:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/baby.png" height="20" width="20" align="absmiddle"></td>
+<td>baby</td>
+<td><img class="emoji" title=":older_woman:" alt=":older_woman:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/older_woman.png" height="20" width="20" align="absmiddle"></td>
+<td>older_woman</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":princess:" alt=":princess:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/princess.png" height="20" width="20" align="absmiddle"></td>
+<td>princess</td>
+<td><img class="emoji" title=":angel:" alt=":angel:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/angel.png" height="20" width="20" align="absmiddle"></td>
+<td>angel</td>
+</tr>
+<tr>
+<td><img class="emoji" title=":alien:" alt=":alien:" src="https://a248.e.akamai.net/assets.github.com/images/icons/emoji/alien.png" height="20" width="20" align="absmiddle"></td>
+<td>alien</td>
+<td></td>
+<td></td>
+</tr>
+</table><h2>License</h2>
+
+<p>Copyright (c) 2013 Aaron Huang, <a href="http://blog.buginception.com/">http://blog.buginception.com/</a>
+Licensed under the MIT license (<a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a>)</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+        </section>
+
+        <footer>
+          Octemoji is maintained by <a href="https://github.com/aar0nTw">aar0nTw</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
