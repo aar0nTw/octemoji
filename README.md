@@ -87,7 +87,7 @@ Use `emoji` tag is rendered by Liquid
 <tr>
 <td>:joy:</td>
 <td>joy</td>
-<td>:relax:</td>
+<td>:relaxed:</td>
 <td>relax</td>
 </tr>
 <tr>
