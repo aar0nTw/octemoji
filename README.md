@@ -153,48 +153,6 @@ Output: :smile:
 </tr>
 </table> 
 
-<!--
-  &.angry { background-position: 0px -2800px; }
- 11   &.pensive { background-position: 0px -2820px; }
- 12   &.astonished { background-position: 0px -2840px; }
- 13   &.disappointed { background-position: 0px -2860px; }
- 14   &.persevere { background-position: 0px -2880px; }
- 15   &.cold_sweat { background-position: 0px -2900px; }
- 16   &.unamused { background-position: 0px -2920px; }
- 17   &.heart_eyes { background-position: 0px -2940px; }
- 18   &.grin { background-position:0px -2960px; }
- 19   &.wink2 { background-position: 0px -2980px; }
- 20   &.tongue { background-position: 0px -3000px; }
- 21   &.blush { background-position:0px -3020px; }
- 22   &.kiss_heart { background-position:0px -3040px; }
- 23   &.kiss_face { background-position:0px -3060px; }
- 24   &.mask { background-position:0px -3080px; }
- 25   &.flushed { background-position:0px -3100px; }
- 26   &.smiley { background-position:0px -3120px; }
- 27   &.smile { background-position:0px -3140px; }
- 28   &.satisfied { background-position:0px -3160px; }
- 29   &.joy { background-position:0px -3200px; }
- 30   &.relax { background-position:0px -3240px; }
- 31   &.cry { background-position:0px -3280px; }
- 32   &.sob { background-position:0px -3300px; }
- 33   &.fearful { background-position:0px -3320px; }
- 34   &.rage { background-position:0px -3360px; }
- 35   &.confounded { background-position:0px -3400px; }
- 36   &.scream { background-position:0px -3440px; }
- 37   &.sleepy { background-position:0px -3460px; }
- 38   &.smirk { background-position:0px -3480px; }
- 39   &.sweat { background-position:0px -3500px; }
- 40   &.relieved { background-position:0px -3520px; }
- 41   &.wink { background-position:0px -3560px; }
- 42   &.ghost { background-position:0px -1880px; }
- 43   &.baby { background-position:0px -1820px; }
- 44   &.older_woman { background-position:0px -1800px; }
- 45   &.princess { background-position:0px -1860px; }
- 46   &.angel { background-position:0px -1900px; }
- 47   &.alien { background-position:0px -1920px; }
- 48
- -->
-
 ## License #
 
 Copyright (c) 2013 Aaron Huang, http://blog.buginception.com/
