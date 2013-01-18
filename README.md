@@ -12,6 +12,9 @@ Clone this project, put all to your octopress folder:
 
 `emoji.png` in the `source/images/octemoji/` folder.
 
+And add this line in your `screen.scss`
+ 
+`@import "custom/octemoji";`
 ## Usage #
 
 Use `emoji` tag in your article that is rendered by Liquid
